@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <style>
+      .images{
+          display:flex;
+          align-items: flex-start;
+          transition: transform 0.5s;
+      }
+      .images>img{
+
+      }
+      .window{
+          width: 300px;
+          overflow: hidden;
+      }
+  </style>
+</head>
+<body>
+    <div class="window">
+        <div class="images" id='images'>
+            <img 
+            src="https://d3qqlmv4he5rj8.cloudfront.net/blog/wp-content/uploads/2017/08/Managing-Cats-Around-Your-Smaller-Pets-300x200.jpg" alt="" width="300px">
+            <img src="http://www.horseandpethealth.com/wp-content/uploads/2017/11/pug-cat-small-300x200.jpg" alt="" width="300px">
+            <img src="http://www.nurvc.com/wp-content/uploads/2015/04/iStock_000017263550Small-1.jpg-300x200.jpeg" alt="" width="300px">
+        </div>
+    </div>
+    <span id="buttons">
+        <span>第1张</span>
+        <span>第2张</span>
+        <span>第3张</span>
+    </span>
+<script src="main.js"></script>
+</body>
+</html>
